@@ -20,7 +20,7 @@ function ModalComp({ isOpen, toggleModal }) {
           width="100%"
           height="100%"
           controls={true}
-          light={<img src="src/assets/yout.jpg" alt="Youtube Preview" />}
+          light={true}
           config={{
             youtube: {
               playerVars: { rel: 0 },
